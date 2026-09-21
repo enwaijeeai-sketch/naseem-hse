@@ -1,0 +1,19 @@
+# Secrets and environment variables
+.env
+.env.local
+.env.*.local
+
+# API keys and credentials
+*.key
+*.pem
+credentials.json
+service-account.json
+
+# Dependencies and build files
+node_modules/
+dist/
+build/
+
+# Logs and temporary files
+*.log
+.DS_Store
